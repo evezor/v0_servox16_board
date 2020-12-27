@@ -1796,9 +1796,9 @@ F 3 "" H 6350 8950 50  0001 C CNN
 	1    6350 8950
 	-1   0    0    -1  
 $EndComp
-Text Label 5550 8950 0    50   ~ 0
-BUTTON_A
 Text Label 5550 9550 0    50   ~ 0
+BUTTON_A
+Text Label 5550 8950 0    50   ~ 0
 BUTTON_B
 Wire Wire Line
 	5550 8950 5950 8950
@@ -1824,9 +1824,9 @@ Wire Wire Line
 	9550 6900 9800 6900
 Wire Wire Line
 	9800 6800 9550 6800
-Text Label 12100 7100 2    50   ~ 0
-BUTTON_A
 Text Label 12100 7000 2    50   ~ 0
+BUTTON_A
+Text Label 12100 7100 2    50   ~ 0
 BUTTON_B
 Wire Wire Line
 	12100 7000 11650 7000
@@ -1854,22 +1854,11 @@ U 1 1 6057236F
 P 15200 8400
 F 0 "J6" H 15250 8807 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 15250 8716 50  0000 C CNN
-F 2 "Evezor_extras:OLED_HEADER" H 15250 8625 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical_SMD" H 15250 8625 50  0000 C CNN
 F 3 "~" H 15200 8400 50  0001 C CNN
 	1    15200 8400
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	14650 8300 14900 8300
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5F8117E6
-P 13550 8350
-F 0 "H1" H 13650 8396 50  0000 L CNN
-F 1 "MountingHole" H 13650 8305 50  0000 L CNN
-F 2 "Evezor_extras:OLED_STANDOFF" H 13550 8350 50  0001 C CNN
-F 3 "~" H 13550 8350 50  0001 C CNN
-	1    13550 8350
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
